@@ -1,0 +1,355 @@
+/* Global Classes */
+html {
+  font-family: sans-serif;
+}
+.container {
+  margin: 0 auto;
+  max-width: 1200px;
+  padding: 10px;
+}
+.flex-all {
+  display: flex;
+}
+.flex-end {
+  justify-content: flex-end;
+}
+.flex-center {
+  align-items: center;
+}
+.flex-column {
+  flex-direction: column;
+}
+.space-between {
+  justify-content: space-between;
+}
+.space-even {
+  justify-content: space-evenly;
+}
+.blue-font {
+  color: #1797b1;
+}
+
+.orange:hover {
+  color: #ff6a13;
+}
+
+/* Section1 styling */
+header {
+  border-bottom: 1px solid #e1e3e6;
+}
+.location-container {
+  margin: 0 auto;
+  max-width: 400px;
+}
+.contact p,
+.accounts p {
+  margin: 0;
+}
+.acc-container {
+  border-inline: 1px solid #e1e3e6;
+  padding-inline: 20px;
+}
+.accounts a {
+  padding: 2px;
+}
+
+.contact {
+  padding: 10px;
+}
+.orange-i {
+  color: #ff6a13;
+}
+.phone-number p {
+  font-weight: bold;
+  font-size: 20px;
+}
+.light-text p {
+  font-weight: 100;
+}
+.hours p,
+.amount p {
+  color: grey;
+  font-size: 16px;
+}
+.location-container a,
+.profile a {
+  font-size: 14px;
+}
+.cost a {
+  font-size: 16px;
+}
+.list-item {
+  list-style: none;
+}
+#nav-a {
+  text-decoration: none;
+  font-family: sans-serif;
+  padding-block: 25px;
+  margin-right: 15px;
+  font-weight: bold;
+}
+.hours > p {
+  padding-top: 2px;
+}
+.banner {
+  background: url("../images/your-health.jpg") no-repeat top / cover;
+  width: 100%;
+  min-height: 600px;
+}
+ul {
+  padding: 0;
+}
+
+/* section 3 styling */
+
+/* Left Banner items */
+.banner-left {
+  max-width: 450px;
+  padding-block: 40px;
+}
+#section3 .banner-l1 h1 {
+  font-size: 56px;
+  font-weight: 790;
+}
+.banner-l2 p,
+.discount p {
+  font-size: 18px;
+}
+.banner-l3 ul > li {
+  list-style: none;
+  font-size: 18px;
+  font-weight: bold;
+  color: #ff6a13;
+}
+
+/* Right Banner Items */
+.services{
+  width: 400px;
+}
+#xy{
+  width: 70%;
+  word-break: break-all;
+}
+.service-list li {
+  list-style: none;
+}
+.service-list li > a:hover {
+  background: #98d9ed;
+}
+.service-item {
+  background: white;
+  text-decoration: none;
+  font-size: 15px;
+  gap: 10px;
+  padding-inline: 29px;
+}
+.service-item i {
+  padding-inline: 10px;
+}
+.service-item h2 {
+  min-width: 25px;
+  text-align: left;
+  padding: 15px 15px 15px 0px;
+}
+
+.download {
+  background-color: #13353f;
+  color: white;
+}
+.download p {
+  margin: 0 auto;
+}
+.discount {
+  padding-block: 10px;
+  max-width: 300px;
+}
+.discount h2 {
+  font-weight: 750;
+  text-align: center;
+  font-size: 26px;
+}
+.discount img {
+  height: 50px;
+}
+.logo-container {
+  float: left;
+}
+.appstore {
+  gap: 5px;
+  padding-bottom: 15px;
+}
+.appstore a {
+  text-decoration: none;
+  font-size: 14px;
+  padding: 12px 20px;
+  border-radius: 60px;
+  margin-inline: 5px;
+  background-color: white;
+}
+
+.apple:hover {
+  background: #1797b1;
+  color: white;
+
+  p,
+  i,
+  .bolder {
+    color: white;
+  }
+}
+.dwn-btn p {
+  margin: 0 auto;
+}
+.dwn-btn.apple p {
+  color: grey;
+}
+.dwn-btn.google p {
+  color: white;
+}
+.dwn-btn i {
+  font-size: x-large;
+  padding-right: 10px;
+}
+.bolder {
+  font-weight: 750;
+  color: black;
+}
+.dwn-btn.google {
+  background: #ff6a13;
+  .dwn-btn.google p,
+  i,
+  .bolder {
+    color: white;
+  }
+}
+.google:hover {
+  background: white;
+  color: #ff6a13;
+  l .dwn-btn.google p,
+  i,
+  .bolder {
+    color: #ff6a13;
+  }
+}
+
+/* Section 4 analysis styling */
+.analysis {
+  margin-block: 20px;
+  padding-block: 10px;
+  gap: 20px;
+}
+.analysis-text {
+  h3 {
+    font-size: 24px;
+  }
+  p {
+    font-size: 18px;
+    color: grey;
+  }
+}
+#section4,
+#section5 {
+  background-color: #ecf0f8;
+  padding-bottom: 100px;
+}
+.analysis-categories {
+  flex-wrap: wrap;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+.analysis-card {
+  background-color: white;
+  position: relative;
+  font-size: 16px;
+  width: 238px;
+  height: 100px;
+  border: 1px solid #e1e3e6;
+}
+.analysis-font {
+  color: #1797b1;
+}
+.analysis-card a {
+  padding: 30px 20px;
+  text-decoration: none;
+  font-weight: bold;
+}
+.analysis-card i {
+  position: absolute;
+  right: 10px;
+}
+.analysis-card:hover {
+  background-color: #1797b1;
+  .analysis-font,
+  .analysis-font-i {
+    color: white;
+  }
+}
+
+/* Section 5 Discount Program Styles */
+.discount-container {
+  gap: 10px;
+}
+#d-c1 {
+  background: url("../images/test-at-home.jpg") no-repeat center / cover;
+  color: white;
+  padding-left: 30px;
+  padding-top: 20px;
+}
+.discount-card {
+  position: relative;
+  min-width: 390px;
+  min-height: 538px;
+  border-radius: 1px;
+}
+.discount-card h3 {
+  font-size: 28px;
+  font-weight: 790;
+}
+#d-c1 p {
+  width: 250px;
+}
+.discount-btn {
+  text-decoration: none;
+  background: #e8f5f7;
+  color: black;
+  font-weight: 790;
+  padding: 12px 40px;
+  border-radius: 60px;
+  position: absolute;
+  bottom: 25px;
+}
+.discount-btn:hover {
+  background: #ff6a13;
+  color: white;
+}
+.discount-card-half {
+  height: 269px;
+  width: 390px;
+}
+.upper-half {
+  background: url("../images/standart-card.jpg") no-repeat center / cover;
+  position: relative;
+  min-width: 390px;
+  border-radius: 1px;
+}
+.lower-half-card {
+  padding-left: 30px;
+  padding-top: 20px;
+  background-color: white;
+  min-height: 269px;
+  border-radius: 1px;
+}
+#spaced-btn {
+  margin-left: 21px;
+}
+#grey-font {
+  color: grey;
+}
+#upper-half2 {
+  background: url("../images/silver-card.jpg") no-repeat center / cover;
+}
+.disc-contain {
+  position: absolute;
+  bottom: 30px;
+  left: 20px;
+}
